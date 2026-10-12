@@ -24,6 +24,8 @@ LBLCommentPlaceholder,Comment…,Comentar…,Commenta…,Commenter…,Kommentier
 LBLSave,Save,Guardar,Salva,Enregistrer,Speichern
 LBLDeleteTicket,Delete Ticket,Eliminar Ticket,Elimina Ticket,Supprimer le ticket,Ticket löschen
 LBLSyncronizing,Syncronizing…,Sincronizando…,Sincronizzazione...,Synchronisation…,Synchronisierung…
+LBLSyncronized,Synchronized!,¡Sincronizado!,Sincronizzato!,Synchronisé!,Synchronisiert!
+LBLHTTPError,HTTP Error %d,Error HTTP %d,Errore HTTP %d,Erreur HTTP %d,HTTP-Fehler %d
 LBLAllTypes,All types,Todos los tipos,Tutti i tipi,Tous les types,Alle Typen
 LBLAllPriorities,All priorities,Todas las prioridades,Tutte le priorità,Toutes les priorités,Alle Prioritäten
 LBLCreateNewTicket,Create New Ticket,Crear nuevo ticket,Crea Nuovo Ticket,Créer un nouveau ticket,Neues Ticket erstellen

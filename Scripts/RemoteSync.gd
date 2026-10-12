@@ -106,9 +106,9 @@ func save_to_ha() -> void:
 	req.request_completed.connect(func(result: int, response_code: int, _headers: PackedStringArray, _body: PackedByteArray):
 		req.queue_free()
 		if result == HTTPRequest.RESULT_SUCCESS and response_code >= 200 and response_code < 300:
-			sync_done.emit(true, "Sincronizzato!")
+			sync_done.emit(true, tr("LBLSyncronized"))
 		else:
-			sync_done.emit(false, "Errore HTTP %d" % response_code)
+			sync_done.emit(false, tr("LBLHTTPError") % response_code)
 	)
 	
 	req.request(url, headers, HTTPClient.METHOD_POST, JSON.stringify(payload))
