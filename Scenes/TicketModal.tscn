@@ -1,0 +1,75 @@
+[gd_scene format=3 uid="uid://brr13qnl7jm0a"]
+
+[ext_resource type="Script" uid="uid://doabhwlqotoy2" path="res://Scenes/TicketModal.gd" id="1_iugoe"]
+
+[node name="TicketModal" type="ConfirmationDialog" unique_id=752497677]
+oversampling_override = 1.0
+title = "Gestione Ticket"
+position = Vector2i(0, 36)
+size = Vector2i(480, 480)
+min_size = Vector2i(480, 480)
+script = ExtResource("1_iugoe")
+
+[node name="ScrollContainer" type="ScrollContainer" parent="." unique_id=651208996]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 8.0
+offset_top = 8.0
+offset_right = -8.0
+offset_bottom = -49.0
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+
+[node name="VBoxContainer" type="VBoxContainer" parent="ScrollContainer" unique_id=836568742]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+
+[node name="TitleInput" type="LineEdit" parent="ScrollContainer/VBoxContainer" unique_id=1614983508]
+unique_name_in_owner = true
+layout_mode = 2
+placeholder_text = "LineInputTicketTitlePlaceholder"
+
+[node name="DescInput" type="TextEdit" parent="ScrollContainer/VBoxContainer" unique_id=1593993275]
+unique_name_in_owner = true
+custom_minimum_size = Vector2(0, 100)
+layout_mode = 2
+placeholder_text = "LineInputTicketDescriptionPlaceholder"
+
+[node name="TypeOpt" type="OptionButton" parent="ScrollContainer/VBoxContainer" unique_id=180023417]
+unique_name_in_owner = true
+layout_mode = 2
+
+[node name="PrioOpt" type="OptionButton" parent="ScrollContainer/VBoxContainer" unique_id=982574172]
+unique_name_in_owner = true
+layout_mode = 2
+
+[node name="AssigneeInput" type="LineEdit" parent="ScrollContainer/VBoxContainer" unique_id=607300978]
+unique_name_in_owner = true
+layout_mode = 2
+placeholder_text = "LineInputTicketAssigneePlaceholder"
+
+[node name="AttachHB" type="HBoxContainer" parent="ScrollContainer/VBoxContainer" unique_id=1465732274]
+layout_mode = 2
+
+[node name="AttachBtn" type="Button" parent="ScrollContainer/VBoxContainer/AttachHB" unique_id=714983866]
+unique_name_in_owner = true
+layout_mode = 2
+text = "BTNAttachments"
+
+[node name="AttachLbl" type="Label" parent="ScrollContainer/VBoxContainer/AttachHB" unique_id=1182482877]
+unique_name_in_owner = true
+layout_mode = 2
+text = "LBLAttachments"
+
+[node name="FileDialog" type="FileDialog" parent="." unique_id=1201907089]
+unique_name_in_owner = true
+oversampling_override = 1.0
+title = "Open a File"
+file_mode = 0
+access = 2
+
+[connection signal="confirmed" from="." to="." method="_on_confirmed"]

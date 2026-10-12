@@ -1,0 +1,42 @@
+; Engine configuration file.
+; It's best edited using the editor UI and not directly,
+; since the parameters that go here are not all obvious.
+;
+; Format:
+;   [section] ; section goes between []
+;   param=value ; assign values to parameters
+
+config_version=5
+
+[application]
+
+config/name="GodoTask"
+run/main_scene="uid://c80p3mcdbnvdp"
+config/features=PackedStringArray("4.7", "GL Compatibility")
+config/icon="uid://ds202fnq30g27"
+
+[autoload]
+
+Settings="*uid://ounl52rthtax"
+DataModel="*uid://du6p28ar77qo2"
+ExperienceManager="*uid://dk1rov3b7v15w"
+
+[display]
+
+window/stretch/mode="canvas_items"
+window/stretch/aspect="expand"
+
+[internationalization]
+
+locale/translation_remaps={}
+locale/translations=PackedStringArray("res://Utils/GodoTaskTranslation.de.translation", "res://Utils/GodoTaskTranslation.en.translation", "res://Utils/GodoTaskTranslation.es.translation", "res://Utils/GodoTaskTranslation.fr.translation", "res://Utils/GodoTaskTranslation.it.translation")
+
+[physics]
+
+3d/physics_engine="Jolt Physics"
+
+[rendering]
+
+rendering_device/driver.windows="d3d12"
+renderer/rendering_method="gl_compatibility"
+renderer/rendering_method.mobile="gl_compatibility"

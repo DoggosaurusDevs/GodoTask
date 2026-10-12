@@ -1,0 +1,33 @@
+[gd_scene format=3 uid="uid://lmk83gfqx5v8"]
+
+[ext_resource type="Script" uid="uid://dfgc41pbbhg04" path="res://Scenes/TicketDetailPanel.gd" id="1_iotyd"]
+
+[node name="TicketDetailPanel" type="Panel" unique_id=1767492980]
+custom_minimum_size = Vector2(260, 0)
+offset_right = 40.0
+offset_bottom = 40.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+script = ExtResource("1_iotyd")
+
+[node name="ScrollContainer" type="ScrollContainer" parent="." unique_id=1319950313]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+horizontal_scroll_mode = 0
+
+[node name="MarginContainer" type="MarginContainer" parent="ScrollContainer" unique_id=53800357]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+theme_override_constants/margin_left = 10
+theme_override_constants/margin_top = 10
+theme_override_constants/margin_right = 10
+theme_override_constants/margin_bottom = 10
+
+[node name="DetailVBox" type="VBoxContainer" parent="ScrollContainer/MarginContainer" unique_id=1084533828]
+unique_name_in_owner = true
+layout_mode = 2

@@ -1,0 +1,77 @@
+[gd_scene format=3 uid="uid://1rakp53588vb"]
+
+[ext_resource type="Script" uid="uid://ceqybqx87erm8" path="res://Scenes/ProjectsPanel.gd" id="1_v6mgs"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_v6mgs"]
+content_margin_left = 4.0
+content_margin_top = 4.0
+content_margin_right = 4.0
+content_margin_bottom = 4.0
+bg_color = Color(0.101960786, 0.89411765, 0.12941177, 0.6)
+corner_radius_top_left = 3
+corner_radius_top_right = 3
+corner_radius_bottom_right = 3
+corner_radius_bottom_left = 3
+corner_detail = 5
+
+[node name="ProjectsPanel" type="PanelContainer" unique_id=66197599]
+offset_right = 180.0
+offset_bottom = 78.0
+script = ExtResource("1_v6mgs")
+
+[node name="VBoxContainer" type="VBoxContainer" parent="." unique_id=1365456879]
+layout_mode = 2
+
+[node name="HeaderMargin" type="MarginContainer" parent="VBoxContainer" unique_id=1603550577]
+layout_mode = 2
+theme_override_constants/margin_left = 8
+theme_override_constants/margin_top = 8
+theme_override_constants/margin_right = 8
+theme_override_constants/margin_bottom = 8
+
+[node name="HeaderLabel" type="Label" parent="VBoxContainer/HeaderMargin" unique_id=1533065860]
+layout_mode = 2
+text = "LBLProjects"
+
+[node name="ScrollContainer" type="ScrollContainer" parent="VBoxContainer" unique_id=1052779870]
+layout_mode = 2
+size_flags_vertical = 3
+
+[node name="ProjectList" type="VBoxContainer" parent="VBoxContainer/ScrollContainer" unique_id=1603700373]
+unique_name_in_owner = true
+layout_mode = 2
+
+[node name="BtnMargin" type="MarginContainer" parent="VBoxContainer" unique_id=1339907709]
+layout_mode = 2
+
+[node name="NewProjectBtn" type="Button" parent="VBoxContainer/BtnMargin" unique_id=1255318923]
+unique_name_in_owner = true
+layout_mode = 2
+theme_override_styles/normal = SubResource("StyleBoxFlat_v6mgs")
+text = "BTNNewProject"
+
+[node name="NewProjectModal" type="ConfirmationDialog" parent="." unique_id=208637295]
+unique_name_in_owner = true
+oversampling_override = 1.0
+position = Vector2i(0, 36)
+size = Vector2i(200, 192)
+
+[node name="VBoxContainer" type="VBoxContainer" parent="NewProjectModal" unique_id=1280653467]
+offset_left = 8.0
+offset_top = 8.0
+offset_right = 192.0
+offset_bottom = 143.0
+
+[node name="ProjectNameInput" type="LineEdit" parent="NewProjectModal/VBoxContainer" unique_id=1278679043]
+unique_name_in_owner = true
+layout_mode = 2
+placeholder_text = "LineInputNewProjectNamePlaceholder"
+
+[node name="ProjectDescInput" type="TextEdit" parent="NewProjectModal/VBoxContainer" unique_id=1397728481]
+unique_name_in_owner = true
+custom_minimum_size = Vector2(0, 100)
+layout_mode = 2
+size_flags_vertical = 3
+placeholder_text = "LineInputNewProjectDescriptionPlaceholder"
+
+[connection signal="confirmed" from="NewProjectModal" to="." method="_on_modal_confirmed"]

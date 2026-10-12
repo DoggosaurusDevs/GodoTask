@@ -1,0 +1,19 @@
+[remap]
+
+importer="csv_translation"
+type="Translation"
+uid="uid://dvnvkqe2k7t4u"
+
+[deps]
+
+files=["res://Utils/GodoTaskTranslation.en.translation", "res://Utils/GodoTaskTranslation.es.translation", "res://Utils/GodoTaskTranslation.it.translation", "res://Utils/GodoTaskTranslation.fr.translation", "res://Utils/GodoTaskTranslation.de.translation"]
+
+source_file="res://Utils/GodoTaskTranslation.csv"
+dest_files=["res://Utils/GodoTaskTranslation.en.translation", "res://Utils/GodoTaskTranslation.es.translation", "res://Utils/GodoTaskTranslation.it.translation", "res://Utils/GodoTaskTranslation.fr.translation", "res://Utils/GodoTaskTranslation.de.translation"]
+
+[params]
+
+compress=1
+delimiter=0
+unescape_keys=false
+unescape_translations=true

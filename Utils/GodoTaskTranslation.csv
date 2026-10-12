@@ -1,0 +1,58 @@
+key,en,es,it,fr,de
+LBLGodoTask,GodoTask,GodoTask,GodoTask,GodoTask,GodoTask
+LBLLevel,Level:,Nivel:,Livello:,Niveau:,Stufe:
+LBLLanguage,Language:,Idioma:,Lingua:,Langue:,Sprache:
+LBLURL,URL:,URL:,URL:,URL:,URL:
+LBLAttachments,Attachments (Drag files here):,Adjuntos (Arrastra archivos aquí):,Allegati (Trascina file qui):,Pièces jointes (Glissez les fichiers ici) :,Anhänge (Dateien hierher ziehen):
+LBLProjects,PROJECTS,PROYECTOS,PROGETTI,PROJETS,PROJEKTE
+LBLNoFileSelected,No file selected,Ningún archivo seleccionado,Nessun file selezionato,Aucun fichier sélectionné,Keine Datei ausgewählt
+LBLFileAttachedSingular,%d file attached,%d archivo adjunto,%d file allegato,%d fichier joint,%d Datei anhängend
+LBLFileAttachedPlural,%d files attached,%d archivos adjuntos,%d file allegati,%d fichiers joints,%d Dateien angehängt
+LBLNoTicketSelected,No ticket selected.,Ningún ticket seleccionado.,Nessun ticket selezionato.,Aucun ticket sélectionné.,Kein Ticket ausgewählt.
+LBLModify,✏️ Modify,✏️ Modificar,✏️ Modifica,✏️️ Modifier,✏️ Bearbeiten
+LBLStatus,Status:,Estado:,Stato:,Statut:,Status:
+LBLType,Type:,Tipo:,Tipo:,Type:,Typ:
+LBLPriority,Priority:,Prioridad:,Priorità:,Priorité:,Priorität:
+LBLAssignee,Assignee:,Asignado:,Assegnatario:,Assigné :,Zugewiesen an:
+LBLNotAssigned,Not assigned,No asignado,Non assegnato,Non assigné,Nicht zugewiesen
+LBLDescription,Description:,Descripción:,Descrizione:,Description :,Beschreibung:
+LBLNoDescription,No description.,Sin descripción.,Nessuna descrizione.,Aucune description.,Keine Beschreibung.
+LBLAttachmentList,Attachments:,Adjuntos:,Allegati:,Pièces jointes :,Anhänge:
+LBLComments,Comments:,Comentarios:,Commenti:,Commentaires :,Kommentare:
+LBLAnonymous,Anonymous,Anónimo,Anonimo,Anonym,Anonym
+LBLCommentPlaceholder,Comment…,Comentar…,Commenta…,Commenter…,Kommentieren…
+LBLSave,Save,Guardar,Salva,Enregistrer,Speichern
+LBLDeleteTicket,Delete Ticket,Eliminar Ticket,Elimina Ticket,Supprimer le ticket,Ticket löschen
+LBLSyncronizing,Syncronizing…,Sincronizando…,Sincronizzazione...,Synchronisation…,Synchronisierung…
+LBLAllTypes,All types,Todos los tipos,Tutti i tipi,Tous les types,Alle Typen
+LBLAllPriorities,All priorities,Todas las prioridades,Tutte le priorità,Toutes les priorités,Alle Prioritäten
+LBLCreateNewTicket,Create New Ticket,Crear nuevo ticket,Crea Nuovo Ticket,Créer un nouveau ticket,Neues Ticket erstellen
+LBLModifyTicket,Modify Ticket,Editar ticket,Modifica Ticket,Modifier le ticket,Ticket bearbeiten
+LBLBug,Bug,Bug,Bug,Bug,Bug
+LBLTask,Task,Tarea,Task,Tâche,Aufgabe
+LBLStory,User Story,User Story,User Story,User Story,User Story
+LBLEpic,Epic,Epic,Epic,Epic,Epic
+LBLSuggestion,Suggestion,Sugerencia,Suggerimento,Suggestion,Vorschlag
+LBLLow,Low,Baja,Bassa,Basse,Niedrig
+LBLMedium,Medium,Media,Media,Moyenne,Mittel
+LBLHigh,High,Alta,Alta,Haute,Hoch
+LBLCritical,Critical,Crítica,Critica,Critique,Kritisch
+LBLToDo,To Do,Por hacer,Da fare,À faire,Zu erledigen
+LBLInProgress,In Progress,En curso,In corso,En cours,In Arbeit
+LBLInReview,In Review,En revisión,In revisione,En révision,In Prüfung
+LBLDone,Done,Hecho,Fatto,Terminé,Erledigt
+LineInputURLPlaceholder,http://192.168.1.1,http://192.168.1.1,http://192.168.1.1,http://192.168.1.1,http://192.168.1.1
+LineInputTokenPlaceholder,Enter token...,Introduce el token...,Inserisci il token...,Entrer le jeton...,Token eingeben...
+LineInputSearchPlaceholder,Search tickets by title – key or assignee…,Buscar tickets por título -  clave o asignado…,Cerca ticket per titolo -  chiave o assegnatario…,Rechercher des tickets par titre -  clé ou assigné…,Tickets nach Titel -  Schlüssel oder Bearbeiter suchen…
+LineInputTicketTitlePlaceholder,Ticket Title,Título del Ticket,Titolo Ticket,Titre du ticket,Ticket-Titel
+LineInputTicketDescriptionPlaceholder,Ticket Description,Descripción del Ticket,Descrizione Ticket,Description du ticket,Ticket-Beschreibung
+LineInputTicketAssigneePlaceholder,Assignee,Asigned,Assegnatario,Assigné,Bearbeiter
+LineInputNewProjectNamePlaceholder,Project Name,Nombre del Proyecto,Nome Progetto,Nom du projet,Projektname
+LineInputNewProjectDescriptionPlaceholder,Project Description,Descripción del Proyecto,Descrizione Progetto,Description du projet,Projektbeschreibung
+OptionDBRemote,Remote DB,BD Remota,DB Remoto,BD distante,Entfernte DB
+BTNSyncNow,Sync Now,Sincronizar Ahora,Sincronizza,Synchroniser,Jetzt synchronisieren
+BTNSettings,Settings,Ajustes,Impostazioni,Paramètres,Einstellungen
+BTNResetFilters,🔄 Reset filters,🔄 Restablecer filtros,🔄 Reset filtri,🔄 Réinitialiser les filtres,🔄 Filter zurücksetzen
+BTNNewTicket,+ New ticket,+ Nuevo ticket,+ Nuovo ticket,+ Nouveau ticket,+ Neues Ticket
+BTNAttachments,Browse files…,Examinar archivos…,Sfoglia file…,Parcourir les fichiers…,Dateien durchsuchen…
+BTNNewProject,+ New Project,+ Nuevo Proyecto,+ Nuovo progetto,+ Nouveau projet,+ Neues Projekt
