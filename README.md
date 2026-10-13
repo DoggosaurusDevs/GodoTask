@@ -1,3 +1,5 @@
+<img width="1154" height="649" alt="image" src="https://github.com/user-attachments/assets/fc9f669a-4714-4c8b-9a42-e7918998cef0" />
+
 # 🚀 GodoTask
 > A lightweight, fast, and Jira-style task management application built entirely with the **Godot Engine**!
 
