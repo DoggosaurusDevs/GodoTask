@@ -2,7 +2,7 @@ extends Node
 
 const SETTINGS_PATH := "user://godotask_settings.json"
 
-static var server_url: String = "http://192.168.1.100:8123"
+static var server_url: String = "http://192.168.1.1"
 static var token: String = "YOUR_LONG_LIVED_ACCESS_TOKEN_HA"
 static var is_remote: bool = false
 static var current_language

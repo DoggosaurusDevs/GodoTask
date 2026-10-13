@@ -1,7 +1,3 @@
-res://Utils/GodoTaskTranslation.en.translation
-res://Utils/GodoTaskTranslation.es.translation
-res://Utils/GodoTaskTranslation.it.translation
-res://Utils/GodoTaskTranslation.fr.translation
-res://Utils/GodoTaskTranslation.de.translation
 res://Scenes/DoggosaurusDevs.tscn
-res://Scripts/RemoteSync.gd
+res://Scenes/SyncSettingsModal.tscn
+res://Singletons/Settings.gd
